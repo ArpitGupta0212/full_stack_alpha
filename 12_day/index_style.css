@@ -1,0 +1,36 @@
+#container{
+    height:600px;
+    width:80%;
+    background-color: azure;
+    margin:10px auto;
+    border:2px solid black;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;  /*control space acc to main axis*/
+    /* flex-wrap:wrap;   multiple line or single line acc to cross axis */
+    align-items:flex-start;   /*acc to cross axis*/
+    align-content: flex-start;    /*space control acc to cross axis*/
+}
+h1{
+    text-align: center;
+}
+#blue{
+    /* flex-basis:500px ;  acc to main axis in this case row so widht is 500 px */
+    /* flex-grow: 3;
+    max-width: 400px; */
+    flex-shrink:2;
+}
+#org{
+    align-self: flex-end;
+    flex-shrink: 1;
+    /* flex-grow: 1; */
+    /* flex-basis: 50px; acc to main axis in this case row so widht is 50 px */
+
+}
+#container div{
+    height:100px;
+    width:300px;
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+}

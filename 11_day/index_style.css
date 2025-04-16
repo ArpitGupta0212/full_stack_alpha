@@ -1,0 +1,88 @@
+/* div{
+    height: 100px;
+    width:100px;
+    background-color: rgba(51, 202, 13, 0.5);
+    transition: 1s;
+    transition-delay:1s ;
+    margin-top:10px;
+    margin:0 auto;
+    transition: margin-top 2s ease-in 0.2s ;
+}
+#opacity{
+    background-color: #ffa511;
+    opacity:0.5;
+}
+#div3:hover{
+    margin-top: 400px;
+    background-color: pink;
+    background-color: black;
+    border-radius: 50%;
+} */
+/* section{
+    margin-top :100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin:0 auto;
+
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+transform rotate
+#one{
+    transform:rotate(45deg);
+}
+#two{
+    transform:scale(0.5);
+}
+#three{
+    transform: translateX(100px);
+}
+#four{
+    transform: skew(30deg);
+}
+#five{
+    transform: rotate(30deg) translateX(150px);
+} */
+div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color:green;
+    border: 2px solid black;
+    /* box-shadow: 2px 2px 8px black; */
+    margin:20px;
+    /* background-image: url("bg.jpg"); */
+    /* background-size: cover; */
+    display: inline-block;
+}
+#static{
+    background-color: yellow;
+    position: static;
+}
+#relative{
+    background-color: yellow;
+    position: relative;
+    top:100px;
+    left:100px;
+}
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    top:100px;
+    left:100px;
+}
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    top:100px;
+    left:100px;
+}

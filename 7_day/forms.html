@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>hello</button>
+    <form action="/action.php"> <!--action.php does not exist this is for database-->
+        <div>
+            <label for="username">Enter Ur Username</label>
+            <input id="username" placeholder="Enter user name" type="text">
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input id="pass" placeholder="Enter ur Password" type="password">
+        </div>
+        <div>
+            <label for="num">Enter Ur Number</label>
+            <input id="num" placeholder="Enter ur number" type="number">
+        </div>
+        <div>
+            <label for="em">Enter Ur Email</label>
+            <input id="em" placeholder="Enter ur Email" type="email">
+        </div>
+        <div>
+            <label for="Dob">Enter Ur Date of Birth</label>
+            <input id="Dob" placeholder="Enter ur dob" type="date">
+        </div>
+        <div>
+            <label for="ti">Enter Time</label>
+            <input id="ti" type="time">
+        </div>
+        <div>
+            <label for="col">Enter Fav color</label>
+            <input id="col" type="color">
+        </div>
+        <div>
+        <button>Submit</button>
+        <button type="button">Click3</button>
+        <button type="reset">Reset me</button>
+        </div>
+        <div>
+        <input type="submit" vlaue="click1">
+        <input type="button" value="click2"> 
+        </div>
+        <div>
+            <label for="check">I Am 18+</label>
+            <input type="checkbox" id="check" name="age">
+        </div>
+        <div>
+            <label>Enter ur subject</label>
+            <br>
+            <label for="English">English</label>
+            <input type="checkbox" id="English" name="sub" value="eng">
+            <label for="Math">Math</label>
+            <input type="checkbox" id="Math" name="sub" value="math">
+            <label for="Science">Science</label>
+            <input type="checkbox" id="Science" name="sub" value="sci">
+        </div>
+        <div>
+            <label>Enter Ur gender</label>
+            <br>
+            <label for="gen">Male</label>
+            <input type="radio" id="gen" name="gender" value="male"> 
+            <label for="gend">Female</label>
+            <input type="radio" id="gend" name="gender" value="female"> 
+        </div>
+        <div>
+            <label for="proffesion">Enter ur proffesion</label>
+            <select name="proffe" id="proffesion">
+                <option value="Engineer">Engineer</option>
+                <option value="doctor">Doctor</option>
+            </select>
+        </div>
+        <div>
+            <label for="volu">Enter Your vloume level:</label>
+            <input type ="range" min="0" max="100" value="70" id="volu" name="vol" step="10"> <!--value =70 is predifined in this range case so dont be comnfuse -->
+        </div>
+        <div>
+            <label for="feed">Enter ur valueable Feedback</label>
+            <textarea id="feed" placeholder="write in this area" name="feedback" rows="10" cols="40"></textarea>
+        </div>
+    </form>
+</body>
+</html>
