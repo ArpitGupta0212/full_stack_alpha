@@ -9,3 +9,4 @@ function check_large(x,arr){
     }
 }
 check_large(x,arr);
+console.log(x);
